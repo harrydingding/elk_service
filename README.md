@@ -1,4 +1,4 @@
-# es_project
+# es_service 
 
 elasticsearch 2.X.X can use it
 
@@ -15,4 +15,10 @@ becuase when the elasticsearch update to 2.X.X version it can not start with roo
 
 so you need to create a user,and give the elasticsearch permission to start it
 
+
+------ 2 step ------
+
+set the elasticsearch path
+
+enter the profile 'vi /etc/profile' to set the user and ES path
 
