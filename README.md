@@ -1,4 +1,4 @@
-# es_service 
+# es_service - services
 
 elasticsearch 2.X.X can use it
 
