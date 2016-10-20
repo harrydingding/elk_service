@@ -27,8 +27,7 @@ start() {
     fi
  
     echo -n $"Starting $desc: "
-    daemon su -- $USER $BIN/$prog -d
-    su -- $USER $BIN/$prog -d -p $PIDFILE
+    daemon su -- $USER $BIN/$prog -d -p $PIDFILE
 
  
     RETVAL=$?
